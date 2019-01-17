@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="js/jquery-3.3.1.js"></script>
+     <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+      <div class="container">
+        <h1>Celebrity Dating Quiz</h1>
+
+        <p>For the best match results, enter some details about you</p>
+
+        <form id="About">
+
+          <label for="age">Age</label>
+          <input id="age" type="text">
+          <label for="gender">Gender</label>
+
+          <Select id="Gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="undeclared">undeclared</option>
+          </select>
+
+
+          <label for="Race">Race</label>
+          <input id="Race" type="text">
+         <label for="Biometric">Biometric</label>
+
+          <Select id="Height">
+            <option value="Short">Short</option>
+            <option value="Medium">Medium</option>
+            <option value="Tall">Tall</option>
+          </select>
+
+
+          <label for="Movie Genres">Movie Genres</label>
+          <input id="Movie" type="text">
+         <label for="Hobbies">Hobbies</label>
+
+          <Select id="Hobbies">
+            <option value="Hiking">Hiking</option>
+            <option value="Cooking">Cooking</option>
+            <option value="Traveling">Traveling</option>
+          </select>
+
+          <button type="submit" class="btn">Go ahead & Match Me</button>
+        </form>
+        <div id="matched">
+          <p>You have been matched with <span id="Celebrity"></span> for your next date. Your should contact them.<p>
+        </div>
+    </div>
+  </body>
+</html>
